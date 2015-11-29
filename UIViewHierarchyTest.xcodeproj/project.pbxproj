@@ -12,6 +12,8 @@
 		FDB994961C0A2736006F9A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB994941C0A2736006F9A7D /* Main.storyboard */; };
 		FDB994981C0A2736006F9A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB994971C0A2736006F9A7D /* Assets.xcassets */; };
 		FDB9949B1C0A2736006F9A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB994991C0A2736006F9A7D /* LaunchScreen.storyboard */; };
+		FDDD784B1C0A2AA200D41DDD /* MetroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD784A1C0A2AA200D41DDD /* MetroCollectionViewCell.swift */; };
+		FDDD784D1C0A596000D41DDD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDD784C1C0A596000D41DDD /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FDB994971C0A2736006F9A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDB9949A1C0A2736006F9A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDB9949C1C0A2736006F9A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDD784A1C0A2AA200D41DDD /* MetroCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetroCollectionViewCell.swift; sourceTree = "<group>"; };
+		FDDD784C1C0A596000D41DDD /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				FDB994901C0A2736006F9A7D /* AppDelegate.swift */,
 				FDB994921C0A2736006F9A7D /* ViewController.swift */,
+				FDDD784A1C0A2AA200D41DDD /* MetroCollectionViewCell.swift */,
+				FDDD784C1C0A596000D41DDD /* Util.swift */,
 				FDB994941C0A2736006F9A7D /* Main.storyboard */,
 				FDB994971C0A2736006F9A7D /* Assets.xcassets */,
 				FDB994991C0A2736006F9A7D /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDD784B1C0A2AA200D41DDD /* MetroCollectionViewCell.swift in Sources */,
 				FDB994931C0A2736006F9A7D /* ViewController.swift in Sources */,
 				FDB994911C0A2736006F9A7D /* AppDelegate.swift in Sources */,
+				FDDD784D1C0A596000D41DDD /* Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +258,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIViewHierarchyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.UIViewHierarchyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = UIViewHierarchyTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ASTK.UIViewHierarchyTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +296,7 @@
 				FDB994A11C0A2736006F9A7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
