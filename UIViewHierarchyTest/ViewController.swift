@@ -40,22 +40,31 @@ class ViewController: UIViewController {
         cell.metroLineLabel.text = metroLineNameArray[indexPath.row]
         if (indexPath.row == 0) {
             cell.metroLineColorView.backgroundColor = UIColor(red: 0.95, green: 0.59, blue: 0.00, alpha: 1.0)
+            cell.backgroundColor = UIColor(red: 0.95, green: 0.59, blue: 0.00, alpha: 0.2)
         } else if (indexPath.row == 1) {
             cell.metroLineColorView.backgroundColor = UIColor(red: 0.90, green: 0.00, blue: 0.07, alpha: 1.0)
+            cell.backgroundColor = UIColor(red: 0.90, green: 0.00, blue: 0.07, alpha: 0.2)
         } else if (indexPath.row == 2) {
             cell.metroLineColorView.backgroundColor = UIColor(red: 0.61, green: 0.68, blue: 0.72, alpha: 1.0)
+            cell.backgroundColor = UIColor(red: 0.61, green: 0.68, blue: 0.72, alpha: 0.2)
         } else if (indexPath.row == 3) {
             cell.metroLineColorView.backgroundColor = UIColor(red: 0.00, green: 0.65, blue: 0.86, alpha: 1.0)
+            cell.backgroundColor = UIColor(red: 0.00, green: 0.65, blue: 0.86, alpha: 0.2)
         } else if (indexPath.row == 4) {
             cell.metroLineColorView.backgroundColor = UIColor(red: 0.00, green: 0.60, blue: 0.27, alpha: 1.0)
+            cell.backgroundColor = UIColor(red: 0.00, green: 0.60, blue: 0.27, alpha: 0.2)
         } else if (indexPath.row == 5) {
             cell.metroLineColorView.backgroundColor = UIColor(red: 0.84, green: 0.77, blue: 0.28, alpha: 1.0)
+            cell.backgroundColor = UIColor(red: 0.84, green: 0.77, blue: 0.28, alpha: 0.2)
         } else if (indexPath.row == 6) {
             cell.metroLineColorView.backgroundColor = UIColor(red: 0.61, green: 0.49, blue: 0.71, alpha: 1.0)
+            cell.backgroundColor = UIColor(red: 0.61, green: 0.49, blue: 0.71, alpha: 0.2)
         } else if (indexPath.row == 7) {
             cell.metroLineColorView.backgroundColor = UIColor(red: 0.00, green: 0.68, blue: 0.66, alpha: 1.0)
+            cell.backgroundColor = UIColor(red: 0.00, green: 0.68, blue: 0.66, alpha: 0.2)
         } else if (indexPath.row == 8) {
             cell.metroLineColorView.backgroundColor = UIColor(red: 0.73, green: 0.39, blue: 0.11, alpha: 1.0)
+            cell.backgroundColor = UIColor(red: 0.73, green: 0.39, blue: 0.11, alpha: 0.2)
         }
         return cell
     }
